@@ -81,6 +81,12 @@ h2 { font-size: clamp(2.25rem, 5vw, 4.2rem); line-height: 1.08; letter-spacing: 
 .store-sign span { display: block; color: var(--accent); font-size: .43em; letter-spacing: .28em; }
 .store-sparkle { position: absolute; top: 40px; right: 55px; color: var(--accent); font-size: 2rem; }
 .store-copy p:not(.kicker) { max-width: 570px; margin-bottom: 30px; color: var(--muted); font-size: 1.08rem; }
+.store-facts { display: grid; grid-template-columns: 1fr 1fr; gap: 18px 28px; margin: 0 0 30px; }
+.store-facts div { padding-top: 14px; border-top: 1px solid var(--line); }
+.store-facts span, .store-facts strong { display: block; }
+.store-facts span { margin-bottom: 5px; color: var(--muted); font-size: .74rem; text-transform: uppercase; letter-spacing: .09em; }
+.store-facts strong { font-size: .92rem; line-height: 1.45; }
+.store-facts a { text-decoration: none; }
 .tools-section { background: #0e1528; }
 .tool-card { min-height: 250px; display: flex; flex-direction: column; justify-content: space-between; background: var(--surface-soft); }
 .tool-icon { display: grid; width: 54px; height: 54px; place-items: center; border: 1px solid rgba(140,242,207,.35); border-radius: 16px; color: var(--accent); font-size: 1.6rem; }
@@ -179,6 +185,7 @@ h2 { font-size: clamp(2.25rem, 5vw, 4.2rem); line-height: 1.08; letter-spacing: 
   .skill-card h3 { margin-top: 48px; }
   .projects-heading { display: block; }
   .project-featured .project-art, .project-art { height: 280px; }
+  .store-facts { grid-template-columns: 1fr; }
   .movie-grid { grid-template-columns: 1fr; }
   .movie-main { grid-column: auto; }
   .contact-card { padding: 56px 22px; border-radius: 20px; }
