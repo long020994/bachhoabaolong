@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="News Bảo Long — tổng hợp 10 tin tức nổi bật nhất tại Việt Nam và quốc tế.">
+  <meta name="theme-color" content="#0b1020">
+  <title>News Bảo Long | Tin tức hôm nay</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><div class="wrap topbar-inner"><a class="brand" href="https://bachhoabaolong.com" aria-label="Về website Bảo Long">BL<span>.</span> <b>NEWS</b></a><div class="topbar-actions"><span class="live-dot"><i></i> Cập nhật tự động</span><a class="back-link" href="https://bachhoabaolong.com">Về Bảo Long ↗</a></div></div></header>
+  <main class="wrap">
+    <section class="masthead"><div><p class="eyebrow">25.08.2026 · Bản tin trong ngày</p><h1>Điều đáng chú ý<br><em>hôm nay.</em></h1></div><div class="masthead-note"><p>Tổng hợp nhanh những câu chuyện đang được quan tâm nhiều nhất, chia thành hai khu vực Việt Nam và quốc tế.</p><button class="refresh-button" id="refreshButton" type="button">Làm mới tin <span>↻</span></button></div></section>
+    <section class="news-section" aria-labelledby="vn-title"><div class="section-head"><div><p class="section-number">01 / Việt Nam</p><h2 id="vn-title">Top 10 tin nóng trong nước</h2></div><span class="source-label">Nguồn: Google News RSS</span></div><div class="news-list" id="vietnamNews" aria-live="polite"><div class="loading">Đang tải tin Việt Nam<span>...</span></div></div></section>
+    <section class="news-section international" aria-labelledby="world-title"><div class="section-head"><div><p class="section-number">02 / Quốc tế</p><h2 id="world-title">Top 10 tin nóng quốc tế</h2></div><span class="source-label">Nguồn: Google News RSS</span></div><div class="news-list" id="worldNews" aria-live="polite"><div class="loading">Đang tải tin quốc tế<span>...</span></div></div></section>
+  </main>
+  <footer class="footer wrap"><p>© <span id="year"></span> News Bảo Long · Đọc nhanh, hiểu đúng.</p><p>Tiêu đề và nội dung thuộc về các nguồn báo gốc.</p></footer>
+</body>
+</html>
